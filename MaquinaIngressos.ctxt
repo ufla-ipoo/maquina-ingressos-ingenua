@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MaquinaIngressos
+comment0.text=\r\n\ MaquinaIngressos\ modela\ uma\ m\u00E1quina\ de\ ingressos\ ing\u00EAnua\ que\r\n\ emite\ ingressos\ de\ pre\u00E7o\ fixo.\r\n\ O\ pre\u00E7o\ de\ um\ ingresso\ \u00E9\ definido\ atrav\u00E9s\ do\ construtor.\r\n\ \u00C9\ uma\ m\u00E1quina\ ing\u00EAnua\ porque\ ela\ confia\ que\ os\ clientes\r\n\ colocar\u00E3o\ a\ quantidade\ de\ dinheiro\ suficiente\ antes\ de\ tentar\r\n\ emitir\ um\ ingresso.\r\n\ Ela\ tamb\u00E9m\ assume\ que\ os\ clientes\ colocar\u00E3o\ quantidades\r\n\ razo\u00E1veis.\r\n\ \r\n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves\ -\ 2023-08-31\r\n\r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\r\n
+comment1.params=custoIngresso
+comment1.target=MaquinaIngressos(int)
+comment1.text=\r\n\ Cria\ uma\ m\u00E1quina\ que\ emite\ ingressos\ de\ um\ dado\ pre\u00E7o.\r\n\ Note\ que\ o\ pre\u00E7o\ deve\ ser\ maior\ que\ zero,\ e\ n\u00E3o\ tem\r\n\ nenhuma\ verifica\u00E7\u00E3o\ para\ garantir\ isso.\r\n
+comment2.params=
+comment2.target=int\ obterPreco()
+comment2.text=\r\n\ Retorna\ o\ pre\u00E7o\ do\ ingresso.\r\n
+comment3.params=
+comment3.target=int\ obterSaldo()
+comment3.text=\r\n\ Retorna\ a\ quantidade\ de\ dinheiro\ j\u00E1\ inserida\ para\ o\r\n\ pr\u00F3ximo\ ingresso.\r\n
+comment4.params=quantidade
+comment4.target=void\ inserirDinheiro(int)
+comment4.text=\r\n\ Recebe\ uma\ quantidade\ de\ dinheiro\ de\ um\ cliente.\r\n
+comment5.params=
+comment5.target=void\ imprimirIngresso()
+comment5.text=\r\n\ Imprime\ um\ ingresso.\r\n\ Atualiza\ o\ total\ coletado\ e\ reduz\ o\ saldo\ para\ zero.\r\n
+numComments=6
